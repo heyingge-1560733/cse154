@@ -1,0 +1,79 @@
+/*
+CSE 154
+A3
+Yingge He
+4-21-2016
+Styles for speedreader.html.
+*/
+
+button, img {
+	width: 70px;
+}
+
+button, textarea {
+	border: 1px solid gray;
+}
+
+h1, div {
+	text-align: center;
+}
+
+#display, legend {
+	font-weight: bold;
+}
+
+#inline fieldset, #input {
+	display: inline;
+}
+
+body {
+	background-color: #EAF6F6;
+	font-family: Garamond, serif;
+	font-size: 12pt;
+}
+
+button {
+	background-color: white;
+}
+
+button:disabled {
+	background-color: lightgray;
+}
+
+fieldset {
+	border: none;
+}
+
+legend {
+	border-bottom: 1px solid #8EBEBE;
+	padding: 2px;
+	text-align: left;
+	width: 100%;
+}
+
+textarea {
+	background-color: #FFFFFF;
+}
+
+#display {
+	background-color: #FFFFFF;
+	border: 2px solid #8EBEBE;
+	border-radius: 5px;
+	font-family: monospace;
+	font-size: 36pt;
+	height: 100px;
+	line-height: 100px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+}
+
+#inline fieldset {
+	vertical-align: top;
+}
+
+#validator {
+	bottom: 0px;
+	left: 5px;
+	position: fixed;
+}

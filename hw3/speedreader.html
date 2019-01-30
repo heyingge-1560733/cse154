@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<!--
+CSE 154
+A3
+Yingge He
+4-21-2016
+This html file will produce a webpage used to train people's reading speed.
+-->
+<html> 
+	<head>
+		<title>SpeedReader</title>
+		<link href="speedreader.css" type="text/css" rel="stylesheet" />
+		<script src="speedreader.js" type="text/javascript"></script>
+	</head> 
+	
+	<body> 
+		<h1>SpeedReader</h1>
+
+		<div id="display"></div>
+
+		<div id="inline">
+			<fieldset>
+				<legend>Play Controls:</legend>
+				<button id="start">Start</button>
+				<button disabled="disabled" id="stop">Stop</button>
+			</fieldset>
+
+			<fieldset>
+				<legend>Speed:</legend>
+				<select name="speed" id="speed">
+					<option value="500">50 wpm</option>
+					<option value="200">300 wpm</option>
+					<option selected="selected" value="171">350 wpm</option>
+					<option value="150">400 wpm</option>
+					<option value="133">450 wpm</option>
+					<option value="120">500 wpm</option>
+				</select>
+			</fieldset>
+			
+			<fieldset>
+				<legend>Size:</legend>
+				<input type="radio" name="cc" value="36pt" checked="checked" id="medium" /> Medium
+				<input type="radio" name="cc" value="48pt" id="big" /> Big
+				<input type="radio" name="cc" value="60pt" id="bigger" /> Bigger
+			</fieldset>
+		</div>
+
+		<div>
+			<fieldset id="input">
+				<legend>Input Text</legend>
+				<textarea rows="10" cols="80" id="inputText"></textarea>
+			</fieldset>
+		</div>
+
+		<div id="validator">
+			<a href="https://webster.cs.washington.edu/validate-html.php">
+				<img src="https://webster.cs.washington.edu/images/w3c-html-blue.png" alt="Validate" /></a>
+			<a href="https://webster.cs.washington.edu/validate-css.php">
+				<img src="https://webster.cs.washington.edu/images/w3c-css-blue.png" alt="Validate" /></a>
+			<a href="https://webster.cs.washington.edu/jslint/?referer">
+				<img src="https://webster.cs.washington.edu/images/w3c-js-blue.png" alt="Validate" /></a>
+		</div>
+	</body> 
+</html>

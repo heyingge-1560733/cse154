@@ -1,0 +1,131 @@
+/* 
+Name: Yingge He
+Section: AM
+4-13-2016
+Styles for tmnt.html
+*/
+#overview, #page {
+	background-color: #A2B964;
+}
+
+#overall, .review {
+	border-radius: 20px;
+}
+
+.column, .column img {
+	float: left;
+}
+
+#overview, #validator {
+	float: right;
+}
+
+h1, .review {
+	font-family: Georgia, "Times New Roman", serif;
+}
+
+dt, h1, #rating {
+	font-weight: bold;
+}
+
+body , dl, #page {
+	margin: 0;
+}
+
+#overall, #review, .review, .reviewer {
+	overflow: hidden;
+}
+
+#banner, #page, h1 {
+	text-align: center;
+}
+
+#rating img {
+	vertical-align: bottom;
+}
+
+#rating, #review {
+	width: 550px;
+}
+
+.column {
+	margin-left: 2%;
+	width: 47%;
+}
+
+.column img {
+	margin-right: 5px;
+}
+
+.publication {
+	font-style: italic;
+}
+
+.review {
+	background-color: #FFFFFF;
+	border: 2px solid #CCCCCC;
+	padding: 8px;
+}
+
+.reviewer {
+	margin-bottom: 20pt;
+}
+
+#banner {
+	background-image: url("https://webster.cs.washington.edu/images/rancidbannerbg.png");
+	height: 50px;
+}
+
+#overall {
+	background-color: #EEEEEE;
+	box-shadow: 5px 5px 5px grey;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+}
+
+#overview {
+	width: 250px;
+}
+
+#page {
+	clear: right;
+	padding: 5px;
+}
+
+#rating {
+	background-image: url("https://webster.cs.washington.edu/images/rottenlargebg.png");
+	color: red;
+	height: 83px;
+	font-size: 48pt;
+}
+
+#rating span {
+	color: white;
+	font-size: 8pt;
+}
+
+body {
+	background-image: url("https://webster.cs.washington.edu/images/moviebg.png");
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10pt;
+}
+
+dd {
+	margin-bottom: 10pt;
+}
+
+dl {
+	padding: 10pt;
+	padding-bottom: 0;
+}
+
+h1 {
+	font-size: 24pt;
+	text-shadow: 3px 3px #999999;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}

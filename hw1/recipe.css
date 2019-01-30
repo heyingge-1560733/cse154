@@ -1,0 +1,49 @@
+/* Styles for pie.html */
+a, h1, h2 {
+	color: #A4A400;
+}
+
+abbr, h1, h2 {
+	text-decoration: underline;
+}
+
+blockquote {
+	background-color: #FFFFA8;
+	font-style: italic;
+}
+
+body {
+	background: white;
+	background:url(https://webster.cs.washington.edu/images/silverware.jpg);
+	color: #404040;
+	font-size: 11pt;
+	font-family: Georgia, Garamond, serif;
+}
+
+h1, h2 {
+	font-family: "Lucida Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+	font-size: 22pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+h2 {
+	font-size: 18pt;
+	font-weight: normal;
+	text-align: left;
+}
+
+ins {
+	text-decoration: none;
+}
+
+pre {
+	font-family: monospace;
+}
+
+.heading {
+	background-color: #F0F0F0;
+}

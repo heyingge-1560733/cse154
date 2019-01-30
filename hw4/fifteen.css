@@ -1,0 +1,38 @@
+/*
+CSE 154
+A3
+Yingge He
+5-4-2016
+Styles for fifteen.html.
+*/
+body {
+	font-family: cursive;
+	font-size: 14pt;
+	text-align: center;
+}
+
+#puzzlearea {
+	height: 400px;
+	margin: 0 auto;
+	position: relative;
+	width: 400px;
+}
+
+.highlight {
+	border-color: red;
+	cursor: pointer;
+}
+
+.puzzletile {
+	background-image: url("background.jpg");
+	border: 5px solid black;
+	position: absolute;
+}
+
+.highlight, #output {
+	color: red;
+}
+
+.puzzletile, #output {
+	font-size: 40pt;
+}

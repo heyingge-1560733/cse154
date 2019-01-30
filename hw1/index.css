@@ -1,0 +1,30 @@
+blockquote, #let {
+	font-style: italic;
+}
+
+body {
+	background-color: black;
+	background-image:url(background.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	font-family: sans-serif;s
+	font-size: 20pt;
+}
+
+h1 {
+	font-family: Georgia;
+	font-size: 50pt;
+}
+
+h2 {
+	color: yellow;
+	font-size: 25pt;
+}
+
+img {
+	width: 400px;
+}
+
+#let {
+	font-size: 30pt;
+}
